@@ -1,0 +1,1 @@
+ npx json-server --watch src/Data/products.json --port 4000

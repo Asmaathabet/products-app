@@ -1,0 +1,40 @@
+.product-details{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 60px 30px 60px;
+
+.product-details-data{
+  margin: 10px 62px 40px 180px;
+     height: 100%;
+    flex: 1 1 auto;
+    margin: 0 auto;
+    display: block;
+    .input-rows{
+      display: inline-flex ;
+      flex-direction: column;
+       label{
+       margin-right:30px;
+       }
+       input, textarea{
+          margin-left:40px;
+          margin-bottom: 20px;
+          width:400px
+        }
+      }
+    .product-details-data-btn{
+        .btn-dark{
+         width: 200px;
+         margin-top: 40px;
+         margin-left:10px
+        }
+        .btn-dark:hover{
+        background-color: #0B5ED7;
+        border: none;
+        }
+}
+
+}
+
+}
+
+

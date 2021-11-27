@@ -1,0 +1,41 @@
+.product-box {
+  .card{
+    .img-wrap{
+    .badge{
+      background-color: #0B5ED7;
+      float: left;
+      padding: 7px
+      }
+      .link-style{
+       text-decoration: none !important;
+       text-align: center;
+      }
+      .title{
+      color: #6c757d;
+      font-size: 20px;
+      font-weight: 500;
+    }
+      .title:hover{
+      color: #0B5ED7
+      }
+     .price{
+      font-size: 18px; 
+    }
+    }     
+    .info-wrap{
+        min-height: 130px;
+       .fix-height{
+       min-height: 85px;
+      }
+      .btn-dark{
+      position: absolute;
+      right:    0;
+      bottom:   0;
+      }
+      .btn-dark:hover{
+        background-color: #0B5ED7;
+        border: none;
+      }
+  }
+}
+}
